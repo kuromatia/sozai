@@ -1,7 +1,9 @@
-#include <cmath>
 /*
 桁数を求める。
 */
+
+#include <cmath>
+
 template <typename T>
 T numOfDigits(T num){
   if (num == 0){
